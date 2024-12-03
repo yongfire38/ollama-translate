@@ -15,12 +15,8 @@ Huggingface에서 배포되고 있는 llama3.2-3B 의 양자화 모델을 이용
 - 모델의 실행은 로컬에서 수행하며, [Ollama](https://ollama.com/) 를 이용하였다 
 
 # 실행 방법
-- jar로 실행 후 터미널에서 문장을 입력한다
-  
-  ![image](https://github.com/user-attachments/assets/e8d43930-ebce-4394-8622-2cd2df809a1a)
-  ![image](https://github.com/user-attachments/assets/fb93da65-4076-49e7-bba1-cb0abae25d05)
+- `http://localhost:8080/` 에서 실행한다
 
- - 마치고 싶으면 `quit`이라고 입력하면 된다
-   
-   ![image](https://github.com/user-attachments/assets/ed8abb0f-0e05-45e2-a391-64284a8e9c94)
+![image](https://github.com/user-attachments/assets/fe7e16a8-6238-48a0-bcf3-a2efd7e1697d)
+
   
