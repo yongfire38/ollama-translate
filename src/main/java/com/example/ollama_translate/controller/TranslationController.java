@@ -24,7 +24,7 @@ public class TranslationController {
     }
 
     @PostMapping("/translate")
-    public String translate(@RequestParam String text, Model model) {
+    public String translate(@RequestParam(value = "text") String text, Model model) {
         try {
             String translatedText = translationService.translate(text);
             model.addAttribute("originalText", text);
